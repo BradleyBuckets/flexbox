@@ -1,89 +1,91 @@
 
 .boxA1 {
-    width: 750px;
-    height: 500px;
-    padding: 10px;
+    width: 800px;
+    height: 400px;
+    padding: 0px 20px;
     background-color: lightgreen;
     border: 5px solid green;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
 }
 .boxB {
-    height: 80px;
-    width: 700px;
+    width: 800px;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .B1, .B3 {
-    padding: 20px;
     background-color: lightblue;
     border: 5px solid blue;
-    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 10px;
+    justify-content: center;
+}
+.B1 {
+    flex: 1;
 }
 .B2 {
-    width: 750px;
-    border: 5px solid none;
     flex: 2;
-    display: flex;
     justify-content: space-between;
-    gap: 10px;
 }
-
+.B3 {
+    flex: 0.75;
+}
 .boxC {
-    height: 70px;
-    width: 50px;
+    height: 75%;
     background-color: peachpuff;
     border: 5px solid orange;
     flex: 1;
 }
 
 .C2 {
-    height: 60px;
-    padding: 5px;
     display: flex;
     justify-content: center;
 }
 
 .D1 {
-    height: 190px;
-    width: 370px;
+    height: auto;
+    flex: 1;
     border: 5px solid maroon;
     background-color: lightpink;
 }
 .D2 {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 .boxE {
-    height: 85px;
-    width: 360px;
+    flex: 1;
     border: 5px solid maroon;
     background-color: lightpink;
 }
+
 .boxF {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
 }
 .boxG {
-    height: 50px;
-    width: 95px;
+    height: 85%;
     border: 5px solid red;
     background-color: lightpink;
+    flex: 1;
 }
 .boxH {
+    height: 100%;
+    padding: 10px;
+    flex: 1;
     display: flex;
-    justify-items: center;
-    justify-content: space-between;
+    align-items: center;
     gap: 10px;
 }
 .boxI {
-    height: 70px;
-    width: 155px;
+    height: 60%;
 }
 .I1, .I4 {
     border: 5px solid purple;
@@ -94,4 +96,12 @@
     background-color: peachpuff;
     border: 5px solid orange;
     flex: 1;
+}
+.boxJ {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
 }
